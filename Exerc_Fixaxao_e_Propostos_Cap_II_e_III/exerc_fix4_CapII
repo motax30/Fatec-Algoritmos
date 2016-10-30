@@ -1,0 +1,21 @@
+a,b,c = 2,7,3.5
+L=False
+
+condicao =(b==(a*c)and(L or True))
+resp = "a-)Resposta: "+str(condicao)
+print(resp)
+condicao = b>(a or b) == a**a
+resp = "b-)Resposta: "+str(condicao)
+print(resp)
+condicao =L==b/a>=c or not(a<=c)
+resp = "c-)Resposta: "+str(condicao)
+print(resp)
+condicao = not(L or True)and((a+b)**1/2)>=c
+resp = "d-)Resposta: "+str(condicao)
+print(resp)
+condicao = b/a==c or b/a!=c
+resp = "e-)Resposta: "+str(condicao)
+print(resp)
+condicao = L or b**a<=c*10+a*b
+resp = "f-)Resposta: "+str(condicao)
+print(resp)
