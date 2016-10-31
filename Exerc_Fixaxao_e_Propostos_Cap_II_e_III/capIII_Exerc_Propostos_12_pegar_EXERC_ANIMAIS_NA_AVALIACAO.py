@@ -1,1 +1,0 @@
-print("Algoritmo Classe Eleitoral!")
