@@ -12,19 +12,35 @@ embaralhada = ""
 palavras = ["amendoas","gabriela","Alfredo","Alemanha","Uruguai","venezuela","algoritmo","João", "paralelepípedo", "parlamentar"]
 print("Tente adivinhar a palavra embaralhada abaixo:")
 palavra = random.choice(palavras)
-for i in range(0,len(palavra)):
-    n = random.randrange(0,len(palavra))
-    embaralhada +=palavra[n]
+aux = palavra
+while True:
+    tam_embaralhada = len(embaralhada)
+    tam_palavra = len(palavra)
+    if tam_embaralhada<tam_palavra:
+        i = random.randint(0,(len(aux)-1))
+        letra = aux[i]
+        embaralhada +=letra
+        a,b = "",""
+        for j in range(0,len(aux)):
+            if j!=i:
+                a+=aux[j]
+            else:
+                b+=aux[j]
+        if len(a)>=len(b):
+            aux = a
+        else:
+            aux = b
+            break
 print("%s"%embaralhada)
-x=0
-while x<6:
-    tentativa = input("%dº tentativa, digite uma palavra para adivinhar a palavra embaralhada:"%(x+1))
+x=1
+while x<=6:
+    tentativa = input("%dº tentativa, digite uma palavra para adivinhar a palavra embaralhada:"%(x))
     if tentativa == palavra:
-        print("Parabéns, você acertou a palavra que é:%s."%palavra)
+        print("Parabéns, você acertou, a palavra é:%s."%palavra)
         break
     else:
         print("%s" % embaralhada)
-        print("Você ainda tem %d tentativa(s)."%(x+2))
+        print("Você ainda tem %d tentativa(s)."%(6-x))
     x+=1
-if x==6:
+if x==0:
     print("Você excedeu o número de tentativas, a palavra a ser adivinhada é: %s"%palavra)
