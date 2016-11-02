@@ -5,10 +5,18 @@ ou finalizar o programa."""
 extenso1 = ["Zero","Um","Dois","Três","Quatro","Cinco","Seis","Sete","Oito","Nove","Dez",
            "Onze","Doze","Treze","Quatorze","Quinze","Dezesseis","Dezessete","Dezoito","Dezenove"]
 extDezenas = ["Vinte","Trinta","Quarenta","Cinquenta","Sessenta","Setenta","Oitenta","Noventa"]
-num = int(input("Informe um número para mostrá-lo por extenso"))
-if num<0:
-    print("Você digitou um número inválido. Deve-se digitar um número de 0 à 99")
-elif num<=19:
-    print("O número %d por extenso: %s"%(num,extenso1[num]))
-elif num<=99:
-    print("O número %d por extenso: %s e %s" %(num,extDezenas[(int(num/10)-2)],extenso1[(num%10)]))
+while True:
+           num = int(input("Informe um número para mostrá-lo por extenso"))
+           if num<0:
+               print("Você digitou um número inválido. Deve-se digitar um número de 0 à 99\n")
+               opcao = input("Você gostaria de informar um novo número? (S)Sim ou (N)Não")
+               if opcao ==s:
+                      continue
+               else:
+                      break
+           elif num<=19:
+               print("O número %d por extenso: %s"%(num,extenso1[num]))
+           elif num<=99:
+               print("O número %d por extenso: %s e %s" %(num,extDezenas[(int(num/10)-2)],extenso1[(num%10)]))
+           else:
+              print("Inválido, você forneceu um núemro maior que 99.")
