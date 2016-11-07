@@ -78,8 +78,8 @@ def posicionarPecas(codPeca,posPeca,horientacao):
                 colLetra += 1
             elementos = elem
     return elementos
-
-encouracado1_j1 = (posicionarPecas(1,"A5","V"))
+cod,pos,direcao = j1[0][0],j1[0][1],j1[0][1]
+encouracado1_j1 = (posicionarPecas(cod,pos[:-1],direcao[2:]))
 encouracad2_j1 = (posicionarPecas(1,"A5","V"))
 porta_avioes1_j1 = (posicionarPecas(2,"A5","V"))
 porta_avioes2_j1 = (posicionarPecas(2,"A5","V"))
