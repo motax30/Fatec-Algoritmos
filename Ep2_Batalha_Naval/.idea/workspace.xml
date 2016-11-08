@@ -2,8 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11303051-6f43-4463-a498-1eb37a483d2b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/Atividade_dia_26_10.iml" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/Atividade_dia_26_10.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/atividade_string1.py" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/atividade_string1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/atividade_string2.py" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/atividade_string2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Atividade_26_10_2016/prg1-lista3.py" afterPath="$PROJECT_DIR$/../Atividade_26_10_2016/prg1-lista3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/Aula_9_Algoritmo_Para_Entregar_02_11_2016.iml" afterPath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/Aula_9_Algoritmo_Para_Entregar_02_11_2016.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/Numero_por_extenso.py" afterPath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/Numero_por_extenso.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/Palavra_Embaralhada.py" afterPath="$PROJECT_DIR$/../Aula_9_Algoritmo_Para_Entregar_02_11_2016/Palavra_Embaralhada.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/Avaliacao_Laboratorio.iml" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/Avaliacao_Laboratorio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Adivinhacao.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Adivinhacao.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_12_CapIII - Escolha de Animais.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_12_CapIII - Escolha de Animais.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_28_Termo_da_Sequencia_H.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_28_Termo_da_Sequencia_H.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_30_Calculo_Imposto _de_Renda.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_30_Calculo_Imposto _de_Renda.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_33_Pesquisa_Estatistica_Criancas.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_33_Pesquisa_Estatistica_Criancas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_5_CapIII - Calculo_Idade.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Exercicio_5_CapIII - Calculo_Idade.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Media e Desvios Padroes de Alunos.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Media e Desvios Padroes de Alunos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Soma_acumulada_de_Fibonacci.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/Soma_acumulada_de_Fibonacci.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Avaliacao_Laboratorio/exercicio2_Consumo de 5 veiculos.py" afterPath="$PROJECT_DIR$/../Avaliacao_Laboratorio/exercicio2_Consumo de 5 veiculos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/entrega_dia_21_09_2016_amanha.iml" afterPath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/entrega_dia_21_09_2016_amanha.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/Intercalar_Elementos_De_Listas.py" afterPath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/Intercalar_Elementos_De_Listas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/OperacoesMatematicas-Ex_1-Aula6.py" afterPath="$PROJECT_DIR$/../Entrega_atividade_dia_21_09_2016/OperacoesMatematicas-Ex_1-Aula6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Ep2_Batalha_Naval.iml" afterPath="$PROJECT_DIR$/.idea/Ep2_Batalha_Naval.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jogo_Batalha_Naval.py" afterPath="$PROJECT_DIR$/Jogo_Batalha_Naval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jogador1.txt" afterPath="$PROJECT_DIR$/jogador1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jogador2.txt" afterPath="$PROJECT_DIR$/jogador2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/Exerc_Fixaxao_e_Propostos_Cap_II_e_III.iml" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/Exerc_Fixaxao_e_Propostos_Cap_II_e_III.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_15.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_15.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_6.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_7.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_8_VER_DOPOIS.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_8_VER_DOPOIS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_9_VER_DEPOIS.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/Exerc_Fix_Propostos_Cap_II_e_III_exerc_9_VER_DEPOIS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/capII_exerc3.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_II/capII_exerc3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.2_Cap_III_Numero_Mais_se_aproxima_Raiz.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.2_Cap_III_Numero_Mais_se_aproxima_Raiz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.3_Cap_III_Numero_Primo_ou_Nao).py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.3_Cap_III_Numero_Primo_ou_Nao).py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.4_Cap_III_Calculo Fatorial de um número.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.4_Cap_III_Calculo Fatorial de um número.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.6_Cap_III_Serie de Fibonacci ate vigesimo termo.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_3.6_Cap_III_Serie de Fibonacci ate vigesimo termo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_343_Cap_III_Geracao_de_H_em_uma_Sequencia.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/Exerc_343_Cap_III_Geracao_de_H_em_uma_Sequencia.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_1.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_10.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_11.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_11.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_12_pegar_EXERC_ANIMAIS_NA_AVALIACAO.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_12_pegar_EXERC_ANIMAIS_NA_AVALIACAO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_13.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_13.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_2.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_3.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_4 - TERMINAR DEPOIS.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_4 - TERMINAR DEPOIS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_5.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_Exerc_Propostos_5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc1.1.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc1.1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc1.2.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc1.2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc1.3.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc1.3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.2.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.3.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.4.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.5.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.6.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.7.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.8.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.9.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc2.9.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.1.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.2.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.3.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.4.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.5.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.6.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.7.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc3.7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc_2.10.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/Capitulo_III/capIII_exerc_2.10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/exerc_fat.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/exerc_fat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/exerc_fix4_CapII" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/exerc_fix4_CapII" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/exercicio2_a_ser_entregue.py" afterPath="$PROJECT_DIR$/../Exerc_Fixaxao_e_Propostos_Cap_II_e_III/exercicio2_a_ser_entregue.py" />
     </list>
     <ignored path="Ep2_Batalha_Naval.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +111,8 @@
       <file leaf-file-name="Jogo_Batalha_Naval.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jogo_Batalha_Naval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+            <state relative-caret-position="51">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -48,8 +133,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
     <option name="y" value="2" />
-    <option name="width" value="1550" />
-    <option name="height" value="905" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -86,9 +171,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Python.Jogo_Batalha_Naval">
     <configuration default="false" name="Jogo_Batalha_Naval" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -273,13 +363,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="2" width="1550" height="905" extended-state="0" />
+    <frame x="55" y="2" width="1386" height="788" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15547445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -337,18 +427,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Python34/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/Jogo_Batalha_Naval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Python34/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/Jogo_Batalha_Naval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
