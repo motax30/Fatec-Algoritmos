@@ -5,7 +5,6 @@ j1 = []
 j2 = []
 i=0
 tabuleiro_vazio = ""
-tabuleiro_posicionado = ""
 col = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P"]
 
 for l in range(0,len(col)):
@@ -27,7 +26,13 @@ while i<=3:
     j2.append(k)
     i+=1
 
-def posicionarPecas(codPeca,posPeca,horientacao):
+def getIndicePecaJogador(jogador,termoPesquisado):
+    for j in range(len(j1)):
+            for i in range(len(j1[j])):
+                if termoPesquisado == jogador[j][i]:
+                    return j,i
+
+def montarPecas(codPeca, posPeca, horientacao):
     elem = ""
     i = 0
     linhaPeca = posPeca[0]
@@ -35,20 +40,20 @@ def posicionarPecas(codPeca,posPeca,horientacao):
     if horientacao=="H":
         if codPeca == 1:
             while i<4:
-                elem+=(linhaPeca+str(colPeca)+",1")
+                elem+=(linhaPeca+str(colPeca)+",1|")
                 i+=1
                 colPeca+=1
             elementos = elem
         elif codPeca == 2:
             while i<5:
-                elem+=(linhaPeca+str(colPeca)+",1")
+                elem+=(linhaPeca+str(colPeca)+",1|")
                 i+=1
                 colPeca+=1
             elementos = elem
         elif codPeca == 3:
             linhaPeca = posPeca[0]
             colPeca= int(posPeca[1])
-            elementos = (linhaPeca+str(colPeca)+",1")
+            elementos = (linhaPeca+str(colPeca)+",1|")
         elif codPeca == 4:
             while i<2:
                 elem+=(linhaPeca+str(colPeca)+",1|")
@@ -59,66 +64,48 @@ def posicionarPecas(codPeca,posPeca,horientacao):
         colLetra=col.index(linhaPeca)
         if codPeca == 1:
             while i<4:
-                elem+=(col[colLetra]+str(colPeca)+",1")
+                elem+=(col[colLetra]+str(colPeca)+",1|")
                 i+=1
                 colLetra+=1
             elementos = elem
         elif codPeca == 2:
             while i<5:
-                elem += (col[colLetra] + str(colPeca) + ",1")
+                elem += (col[colLetra] + str(colPeca) + ",1|")
                 i += 1
                 colLetra += 1
             elementos = elem
         elif codPeca == 3:
-            elementos = (col[colLetra] + str(colPeca) + ",1")
+            elementos = (col[colLetra] + str(colPeca) + ",1|")
         elif codPeca == 4:
             while i<2:
-                elem += (col[colLetra] + str(colPeca) + ",1")
+                elem += (col[colLetra] + str(colPeca) + ",1|")
                 i += 1
                 colLetra += 1
             elementos = elem
+    elif horientacao=="N/A":
+        colLetra = col.index(linhaPeca)
+        elementos = (col[colLetra] + str(colPeca) + ",1|")
     return elementos
-cod,pos,direcao = j1[0][0],j1[0][1],j1[0][1]
-encouracado1_j1 = (posicionarPecas(cod,pos[:-1],direcao[2:]))
-encouracad2_j1 = (posicionarPecas(1,"A5","V"))
-porta_avioes1_j1 = (posicionarPecas(2,"A5","V"))
-porta_avioes2_j1 = (posicionarPecas(2,"A5","V"))
-submarino1_j1 = (posicionarPecas(3,"A5","V"))
-submarino2_j1 = (posicionarPecas(3,"A5","V"))
-submarino3_j1 = (posicionarPecas(3,"A5","V"))
-submarino4_j1 = (posicionarPecas(3,"A5","V"))
-submarino5_j1 = (posicionarPecas(3,"A5","V"))
-cruzador1_j1 = (posicionarPecas(4,"A5","V"))
-cruzador2_j1 = (posicionarPecas(4,"A5","V"))
-cruzador3_j1 = (posicionarPecas(4,"A5","V"))
-cruzador4_j1 = (posicionarPecas(4,"A5","V"))
-
-encouracado1_j2 = (posicionarPecas(1,"A5","V"))
-encouracad2_j2 = (posicionarPecas(1,"A5","V"))
-porta_avioes1_j2 = (posicionarPecas(2,"A5","V"))
-porta_avioes2_j2 = (posicionarPecas(2,"A5","V"))
-submarino1_j2 = (posicionarPecas(3,"A5","V"))
-submarino2_j2 = (posicionarPecas(3,"A5","V"))
-submarino3_j2 = (posicionarPecas(3,"A5","V"))
-submarino4_j2 = (posicionarPecas(3,"A5","V"))
-submarino5_j2 = (posicionarPecas(3,"A5","V"))
-cruzador1_j2 = (posicionarPecas(4,"A5","V"))
-cruzador2_j2 = (posicionarPecas(4,"A5","V"))
-cruzador3_j2 = (posicionarPecas(4,"A5","V"))
-cruzador4_j2 = (posicionarPecas(4,"A5","V"))
-print(posicionarPecas(2,"A5","H"))
-print(posicionarPecas(3,"A5","H"))
-print(posicionarPecas(4,"A5","H"))
-jogada_j1 = arq1[5].split(";")
-jogada_j2 = arq2[5].split(";")
-j1.append(jogada_j1)
-j2.append(jogada_j2)
-print(j1)
-print(j2)
-
-
-
-
-
-
-
+def posicionarPecasJogador(jogador):      #Passar como parâmetro a lista das posições do Jogador: J1 ou J2
+    global tabuleiro
+    for c in range(len(jogador)):
+        cod = getIndicePecaJogador(jogador, jogador[c][0])
+        for d in range(0,len(jogador[c])-1):
+            peca = getIndicePecaJogador(jogador,jogador[c][d+1])
+            pos = jogador[peca[0]][peca[1]]
+            if len(pos)>=3:
+                pos = pos[len(pos)-1:]
+            else:
+                pos = 'N/A'
+            peca= montarPecas(int(jogador[cod[0]][cod[1]]), jogador[peca[0]][peca[1]], pos).split('|')
+            f=0
+            while f<len(peca)-1:
+               # ind = tabuleiro.find(peca[0][:2])
+                velho  = peca[f][:len(peca[f])-1]+"0"
+                novo = peca[f]
+                tabuleiro = tabuleiro.replace(velho,novo)
+                ct = tabuleiro.count(',1')
+                f+=1
+    return tabuleiro
+tabuleiro_j1 = posicionarPecasJogador(j1)
+tabuleiro_j2 = posicionarPecasJogador(j2)
