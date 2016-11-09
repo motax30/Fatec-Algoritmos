@@ -127,7 +127,9 @@ def posicionarPecasJogador(jogador,tabuleiro):      #Passar como parâmetro a li
                 else:
                     print("Posição %s está fora dos limites do tabuleiro.Esta posição pertence à peça %s"
                           ""%(velho[:-2],peca[0][:-2]+pos))
-                    break
+                    f=len(peca)-1
+                    d=len(jogador[c])-1
+                    c=len(jogador[c])
                 f+=1
     return tabul_j1
 tabuleiro_j1 = posicionarPecasJogador(j1,pecasPosicionadas_j1)
