@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11303051-6f43-4463-a498-1eb37a483d2b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jogo_Batalha_Naval.py" afterPath="$PROJECT_DIR$/Jogo_Batalha_Naval.py" />
     </list>
     <ignored path="Ep2_Batalha_Naval.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -325,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478718379642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Corrigido a finalização do laço de verificação de peça fora do Tabuleiro">
+      <created>1478718841606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1478718841606</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -365,7 +371,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adição do método &quot;posicionarPecas&quot; e acertos na lógica do programa" />
     <MESSAGE value="Ajustes no código para tratar peças com alguma de suas posições fora do tabuleiro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no código para tratar peças com alguma de suas posições fora do tabuleiro" />
+    <MESSAGE value="Corrigido a finalização do laço de verificação de peça fora do Tabuleiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigido a finalização do laço de verificação de peça fora do Tabuleiro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
