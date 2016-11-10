@@ -92,13 +92,13 @@ def getElementosDaPeca(codPeca, posPeca, horientacao):
             elementos = elem
         elif codPeca == 3:
             elementos = (col[colLetra] + str(colPeca) + ",1|")
-        elif codPeca == qtd_Cruzadores:
-            while i<4:
+        elif codPeca == 4:
+            while i<qtd_Cruzadores:
                 elem += (col[colLetra] + str(colPeca) + ",1|")
                 i += 1
                 colLetra += 1
             elementos = elem
-    elif horientacao=="N/A":
+    elif horientacao=="0":
         colLetra = col.index(linhaPeca)
         elementos = (col[colLetra] + str(colPeca) + ",1|")
     return elementos
@@ -113,6 +113,7 @@ def getUnidadesDaPeca(peca,unidadesDaPeca):
         y+=1
 
 def posicionarPecasJogador(jogador,tabuleiroVazio,unidadesDaPeca):      #Passar como parâmetro a lista das posições do Jogador: J1 ou J2
+   # retorno =True
     for c in range(0,len(jogador)):
         cod = getIndicePecaJogador(jogador, jogador[c][0])
         for d in range(0,len(jogador[c])-1):
@@ -121,42 +122,67 @@ def posicionarPecasJogador(jogador,tabuleiroVazio,unidadesDaPeca):      #Passar 
             if len(pos)>=3:
                 pos = pos[len(pos)-1:]
             else:
-                pos = 'N/A'
+                pos = '0'
             peca= getElementosDaPeca(int(jogador[cod[0]][cod[1]]), jogador[peca[0]][peca[1]], pos).split('|')
             getUnidadesDaPeca(peca,unidadesDaPeca)
             adicionarElementosPecaNoTabuleiro(peca,tabuleiroVazio,pos)
+
+msgErroPecForaTabuleiro = []
 
 def adicionarElementosPecaNoTabuleiro(peca,tabuleiroVazio,posicao):
     f = 0
     while f < len(peca) - 1:
         global temp
+        global msgErroPecForaTabuleiro
         if len(peca[f]) < 5:
             velho = peca[f][:len(peca[f]) - 2] + ",0"
             novo = peca[f]
         else:
             velho = peca[f][:len(peca[f]) - 2] + ",0"
             novo = peca[f]
-        if tabuleiroVazio == tabul_j1:
+        if tabuleiroVazio is tabul_j1:
             if velho in tabul_j1:
                 k = temp.replace(velho, novo)
                 temp = k
-        elif tabuleiroVazio == tabul_j2:
+            elif posicao!=0:
+                setMsgErroPecaForaTabuleiro(2,velho[:-2], peca[0][:-2] + posicao)
+                return False
+                break
+            else:
+                setMsgErroPecaForaTabuleiro(1,velho[:-2], peca[0][:-2])
+                return False
+                break
+        elif tabuleiroVazio is tabul_j2:
             if velho in tabul_j2:
                 k = temp.replace(velho, novo)
                 temp = k
-        else:
-            print("Posição %s está fora dos limites do tabuleiro.Esta posição pertence à peça %s"
-                  "" % (velho[:-2], peca[0][:-2] + posicao))
-            return False
-            break
+            elif posicao!=0:
+                setMsgErroPecaForaTabuleiro(2,velho[:-2], peca[0][:-2] + posicao)
+                return False
+                break
+            else:
+                setMsgErroPecaForaTabuleiro(2, velho[:-2], peca[0][:-2])
+                return False
+                break
         f+=1
+
+def setMsgErroPecaForaTabuleiro(codJogador,posFora,peca):
+    global msgErroPecForaTabuleiro
+    msg = "Posição %s está fora dos limites do tabuleiro.Esta posição pertence à peça %s"%(posFora, peca)
+    tp =[]
+    tp.append(codJogador)
+    tp.append(msg)
+    msgErroPecForaTabuleiro.append(tp)
 
 temp = tabul_j1
 extrairPecasDosArquivos()
 posicionarPecasJogador(j1,tabul_j1,unidadesDaPeca_j1)
+
 pecasPosicionadas_j1= temp
 temp = tabul_j2
 posicionarPecasJogador(j2,tabul_j2,unidadesDaPeca_j2)
 pecasPosicionadas_j2= temp
-print(pecasPosicionadas_j1)
-print(pecasPosicionadas_j2)
+print(unidadesDaPeca_j1)
+print(unidadesDaPeca_j2)
+print(len(unidadesDaPeca_j1))
+print(len(unidadesDaPeca_j2))
