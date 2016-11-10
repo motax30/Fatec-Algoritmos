@@ -103,7 +103,16 @@ def getElementosDaPeca(codPeca, posPeca, horientacao):
         elementos = (col[colLetra] + str(colPeca) + ",1|")
     return elementos
 
-def posicionarPecasJogador(jogador,tabuleiroVazio):      #Passar como parâmetro a lista das posições do Jogador: J1 ou J2
+unidadesDaPeca_j1 = []
+unidadesDaPeca_j2 = []
+def getUnidadesDaPeca(peca,unidadesDaPeca):
+    y = 0
+    while y<len(peca)-1:
+        p = peca[y]
+        unidadesDaPeca.append(p)
+        y+=1
+
+def posicionarPecasJogador(jogador,tabuleiroVazio,unidadesDaPeca):      #Passar como parâmetro a lista das posições do Jogador: J1 ou J2
     for c in range(0,len(jogador)):
         cod = getIndicePecaJogador(jogador, jogador[c][0])
         for d in range(0,len(jogador[c])-1):
@@ -114,6 +123,7 @@ def posicionarPecasJogador(jogador,tabuleiroVazio):      #Passar como parâmetro
             else:
                 pos = 'N/A'
             peca= getElementosDaPeca(int(jogador[cod[0]][cod[1]]), jogador[peca[0]][peca[1]], pos).split('|')
+            getUnidadesDaPeca(peca,unidadesDaPeca)
             adicionarElementosPecaNoTabuleiro(peca,tabuleiroVazio,pos)
 
 def adicionarElementosPecaNoTabuleiro(peca,tabuleiroVazio,posicao):
@@ -143,10 +153,10 @@ def adicionarElementosPecaNoTabuleiro(peca,tabuleiroVazio,posicao):
 
 temp = tabul_j1
 extrairPecasDosArquivos()
-posicionarPecasJogador(j1,tabul_j1)
+posicionarPecasJogador(j1,tabul_j1,unidadesDaPeca_j1)
 pecasPosicionadas_j1= temp
-temp = tabul_j1
-posicionarPecasJogador(j2,tabul_j2)
+temp = tabul_j2
+posicionarPecasJogador(j2,tabul_j2,unidadesDaPeca_j2)
 pecasPosicionadas_j2= temp
 print(pecasPosicionadas_j1)
 print(pecasPosicionadas_j2)
