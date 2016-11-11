@@ -27,7 +27,7 @@ def extrairPecasDosArquivos():
             j.append(posicao_direcao_j1[p])
         j1.append(j)
         cod_j2 = (arq2[i].split("; "))[0].split(";")[0]
-        posicao_direcao_j2 = (arq2[i].split("; "))[0].split(";")[1].replace("\n", "").split("|")
+        posicao_direcao_j2 = (arq2[i].split("; "))[0].split(";")[1].replace("\n","").split("|")
         k = [cod_j2]
         for p in range(len(posicao_direcao_j2)):
             k.append(posicao_direcao_j2[p])
@@ -47,13 +47,15 @@ def getElementosDaPeca(codPeca, posPeca, horientacao):
     i = 0
     linhaPeca = str
     colPeca = int
-    if len(posPeca)<4:
+    if len(posPeca)<=3:
         linhaPeca = posPeca[0]
         colPeca = int(posPeca[1])
     else:
         linhaPeca = posPeca[0]
         colPeca = int(posPeca[1]+posPeca[2])
-    if horientacao=="H":
+    if horientacao=="0":
+        elementos = (posPeca + ",1|")
+    elif horientacao=="H":
         if codPeca == 1:
             while i<qtd_Encouracados:
                 elem+=(linhaPeca+str(colPeca)+",1|")
@@ -98,9 +100,7 @@ def getElementosDaPeca(codPeca, posPeca, horientacao):
                 i += 1
                 colLetra += 1
             elementos = elem
-    elif horientacao=="0":
-        colLetra = col.index(linhaPeca)
-        elementos = (col[colLetra] + str(colPeca) + ",1|")
+
     return elementos
 
 unidadesDaPeca_j1 = []
