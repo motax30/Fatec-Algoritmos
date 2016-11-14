@@ -165,11 +165,12 @@ def getUnidadesDaPeca(indicePeca,peca,unidadesDaPeca):
         p = peca[y]
         tmp.append(p)
         y+=1
-    unidadesDaPeca[[indicePeca].extend(tmp)]
+    return tmp
 
 def posicionarPecasJogador(jogador,tabuleiroVazio,unidadesDaPeca):      #Passar como parâmetro a lista das posições do Jogador: J1 ou J2
     for c in range(0,len(jogador)):
-        unidadesDaPeca.append(c + 1)
+        unidPecasTemp=[]
+        unidPecasTemp.append(c + 1)
         cod = getIndicePecaJogador(jogador, jogador[c][0])
         for d in range(0,len(jogador[c])-1):
             peca = getIndicePecaJogador(jogador,jogador[c][d+1])
@@ -182,8 +183,9 @@ def posicionarPecasJogador(jogador,tabuleiroVazio,unidadesDaPeca):      #Passar 
             else:
                 pos = '0'
             peca= getElementosDaPeca(int(jogador[cod[0]][cod[1]]), jogador[peca[0]][peca[1]], pos).split('|')
-            getUnidadesDaPeca(d,peca,unidadesDaPeca)
+            unidPecasTemp.extend(getUnidadesDaPeca(d,peca,unidadesDaPeca))
             adicionarElementosPecaNoTabuleiro(peca,tabuleiroVazio,pos)
+        unidadesDaPeca.append(unidPecasTemp)
 
 msgErroPecForaTabuleiro = []
 
